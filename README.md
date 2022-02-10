@@ -1,7 +1,11 @@
-Copyright (C) Sony Mobile Communications 2020
-=============================================
+Moto G Stylus 5G (2021)
+============
 
-This is the Android device configuration for Xperia 1 II (edo platform).
+## Copyrights
+Copyright (C) LineageOS Modded Project/Electimon 2022
 
-Build instructions
-https://developer.sony.com/develop/open-devices/guides/aosp-build-instructions/
+Copyright (C) Sony Mobile Communications 2019
+
+## Device Tree
+
+Android device configuration for the Moto G Stylus 5G (2021) (holi platform - **SM4350**).
