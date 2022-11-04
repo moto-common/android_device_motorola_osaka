@@ -58,6 +58,10 @@ PRODUCT_PROPERTY_OVERRIDES := \
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/vendor/etc/thermal-engine-denver.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-denver.conf
 
+# Fingerprint
+TARGET_USES_CHIPONE_FINGERPRINT := true
+TARGET_USES_FPC_FINGERPRINT := true
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/motorola/sm4350-common/platform.mk)
 
