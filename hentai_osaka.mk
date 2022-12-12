@@ -12,6 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+MAINLINE_INCLUDE_BT_MODULE := false
+
 #
 # All components inherited here go to system image
 #
