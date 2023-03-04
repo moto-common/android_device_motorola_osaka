@@ -29,8 +29,8 @@ PRODUCT_COPY_FILES += \
 
 # Device Init
 PRODUCT_PACKAGES += \
-    fstab.osaka \
-    vendor-fstab.osaka \
+    fstab.qcom.vendor_ramdisk \
+    fstab.qcom \
     init.recovery.qcom.rc
 
 # Telephony Packages (AOSP)
