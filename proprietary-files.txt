@@ -358,11 +358,9 @@ vendor/bin/hw/fpc_ident
 vendor/bin/fpc_tee_test
 -vendor/etc/vintf/manifest/manifest_IMoto_Fingerprint.xml
 vendor/lib/hw/chipone.fingerprint.default.so
-vendor/lib/com.motorola.hardware.biometric.fingerprint@1.0.so
 vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
 vendor/lib64/hw/chipone.fingerprint.default.so
 vendor/lib64/com.fingerprints.extension@1.0.so
-vendor/lib64/com.motorola.hardware.biometric.fingerprint@1.0.so
 vendor/lib64/libfp_ext_svc2.so
 vendor/lib64/vendor.fpsensor.hardware.fpsensorhidlsvc@2.0.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
