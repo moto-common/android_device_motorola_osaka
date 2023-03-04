@@ -30,8 +30,7 @@ PRODUCT_COPY_FILES += \
 # Device Init
 PRODUCT_PACKAGES += \
     fstab.qcom.vendor_ramdisk \
-    fstab.qcom \
-    init.recovery.qcom.rc
+    fstab.qcom
 
 # Telephony Packages (AOSP)
 PRODUCT_PACKAGES += \
