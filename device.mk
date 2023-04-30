@@ -23,12 +23,6 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_PROPERTY_OVERRIDES := \
     ro.sf.lcd_density=420
 
-# Audio Configuration
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/vendor/etc/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
-    $(DEVICE_PATH)/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
-    $(DEVICE_PATH)/vendor/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml
-
 # Device Init
 PRODUCT_PACKAGES += \
     fstab.qcom.vendor_ramdisk \
@@ -37,14 +31,6 @@ PRODUCT_PACKAGES += \
 # Fingerprint
 TARGET_USES_CHIPONE_FINGERPRINT := true
 TARGET_USES_FPC_FINGERPRINT := true
-
-# Media
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/vendor/etc/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml
-
-# Thermal
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/vendor/etc/thermal-engine-denver.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-denver.conf
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/motorola/sm4350-common/platform.mk)
