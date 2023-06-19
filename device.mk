@@ -23,11 +23,6 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_PROPERTY_OVERRIDES := \
     ro.sf.lcd_density=420
 
-# Device Init
-PRODUCT_PACKAGES += \
-    fstab.qcom.vendor_ramdisk \
-    fstab.qcom
-
 # Fingerprint
 TARGET_USES_CHIPONE_FINGERPRINT := true
 TARGET_USES_FPC_FINGERPRINT := true
